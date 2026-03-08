@@ -6,3 +6,6 @@ if x%2==0:
     print("This is EVEN number")
 else:
     print("This is ODD number")
+
+result = print("This is EVEN number") if x%2==0 else print("This is ODD number")
+# print(result) 

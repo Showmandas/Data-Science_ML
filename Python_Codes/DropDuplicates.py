@@ -8,7 +8,7 @@ del_duplicate=input("Do you want to delete duplicate from the list? yes/no: ")
 if del_duplicate == "yes":
     print(list(set(l2)))
 else:
-    print("Ok boss")
+    print(f"Ok boss! then you can see {l2}")
 
 
 
